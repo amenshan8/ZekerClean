@@ -643,7 +643,7 @@ html.dark .features-section {
 .services-hero-section p {
     max-width: 800px;
     font-size: 1.2em;
-    margin: 0 auto;
+    margin: 0 auto 1em auto; /* Added bottom margin */
 }
 
 .services-grid-section {
@@ -655,6 +655,7 @@ html.dark .features-section {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     direction: ltr; /* Force LTR layout for grid items */
+    margin-top: 40px; /* Added spacing from hero section's content */
 }
 
 .service-card {
@@ -686,8 +687,22 @@ html.dark .features-section {
 
 .service-card p {
     font-size: 1em;
-    padding: 0 20px 20px;
+    padding: 0 20px 10px; /* Adjusted bottom padding */
     color: var(--text-color);
+}
+
+.service-details-list {
+    text-align: left; /* Default LTR */
+    list-style-type: disc; /* Use disc bullets */
+    padding-left: 40px; /* Indent bullets */
+    padding-right: 20px; /* Keep consistent padding on right */
+    margin: 0px 0 20px; /* Added bottom margin */
+    color: var(--text-color);
+}
+
+.service-details-list li {
+    margin-bottom: 8px;
+    padding-left: 5px; /* Adjust spacing between bullet and text */
 }
 
 /* Contact Page */
@@ -1108,6 +1123,9 @@ footer {
         width: 120px;
         height: 120px;
     }
+    .service-details-list {
+        padding-left: 20px; /* Adjust for smaller screens */
+    }
 }
 
 @media (max-width: 480px) {
@@ -1165,6 +1183,18 @@ main[dir="rtl"] .contact-info-container h2,
 main[dir="rtl"] .contact-form p.success,
 main[dir="rtl"] .contact-form p.error {
     text-align: center;
+}
+
+main[dir="rtl"] .service-details-list {
+    text-align: right;
+    list-style-type: disc; /* Use disc bullets */
+    padding-left: 0;
+    padding-right: 40px; /* Indent for RTL */
+}
+
+main[dir="rtl"] .service-details-list li {
+    padding-left: 0;
+    padding-right: 5px;
 }
 
 .footer-bottom[dir="rtl"] {
