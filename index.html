@@ -18,7 +18,7 @@
         <header :class="{'dark-mode': darkMode}" dir="ltr">
             <div class="container header-content">
                 <a href="index.html" class="logo">
-                    <img :src="logoSrc" alt="ZekerClean Logo">
+                    <img :src="logoSrc" alt="ZekerClean Logo" loading="lazy" decoding="async">
                 </a>
                 <button @click="toggleMobileMenu()" class="menu-toggle" aria-label="Toggle navigation menu">
                     <i x-show="!isMobileMenuOpen" class="fas fa-bars"></i>
@@ -87,7 +87,12 @@
             <section class="hero-section" style="background-image: url('hero_background.png');">
                 <div class="container hero-content">
                     <h1 class="bold-headline" data-i18n="home_hero_headline">Welkom bij ZekerClean</h1>
-                    <p data-i18n="home_hero_text">Bij ZekerClean zorgen wij voor schone, frisse en representatieve ruimtes waar uw medewerkers en klanten zich direct welkom voelen. Ons professionele team werkt zorgvuldig, betrouwbaar en met oog voor detail, zodat u altijd kunt rekenen op een hoog niveau van schoonmaak. Of het nu gaat om kantoorschoonmaak, periodiek onderhoud of opleveringsschoonmaak, wij stemmen onze diensten volledig af op uw wensen. Kies voor ZekerClean en ervaar het verschil van een schoon en verzorgd werk- of leefomgeving.</p>
+                    <p data-i18n="home_hero_text">Wij zijn ZekerClean: een team van toegewijde en professionele schoonmakers. Samen zorgen we dagelijks voor schone, frisse en perfect representatieve ruimtes voor onze klanten.  
+Wij werken hard, betrouwbaar en met veel aandacht voor detail. Als team ondersteunen we elkaar en zetten we altijd een stapje extra om een constant hoog niveau van schoonmaak te garanderen.  
+Jouw comfort is onze prioriteit.  
+Van scholen, kantoren en winkels tot bedrijven en vakantiehuizen: wij zorgen voor een eenvoudige, nauwkeurige en comfortabele schoonmaak.  
+Onze diensten worden geleverd met duidelijke afspraken en eerlijke, betaalbare prijzen.  
+Met ZekerClean kunt u rekenen op een team dat zijn werk serieus neemt en trots is op de resultaten die het samen bereikt.</p>
                     <a href="contact.html" class="btn btn-primary" data-i18n="home_cta_contact">Neem contact op</a>
                 </div>
             </section>
