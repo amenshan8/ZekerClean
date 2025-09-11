@@ -18,7 +18,7 @@
         <header :class="{'dark-mode': darkMode}" dir="ltr">
             <div class="container header-content">
                 <a href="index.html" class="logo">
-                    <img :src="logoSrc" alt="ZekerClean Logo">
+                    <img :src="logoSrc" alt="ZekerClean Logo" loading="lazy" decoding="async">
                 </a>
                 <button @click="toggleMobileMenu()" class="menu-toggle" aria-label="Toggle navigation menu">
                     <i x-show="!isMobileMenuOpen" class="fas fa-bars"></i>
@@ -87,32 +87,56 @@
                 <section class="services-hero-section">
                     <div class="container">
                         <h1 data-i18n="services_heading">Onze diensten</h1>
-                        <p data-i18n="services_intro_text">ZekerClean biedt een breed scala aan professionele schoonmaakdiensten, perfect afgestemd op uw specifieke behoeften.</p>
+                        <p data-i18n="services_intro_text"></p>
+                        <p data-i18n="services_intro_text_secondary"></p>
                     </div>
                 </section>
 
                 <section class="section services-grid-section">
                     <div class="container">
                         <div class="services-grid">
+                            <!-- Office and Commercial Cleaning -->
                             <div class="service-card">
-                                <img src="office_cleaning_service.png" alt="Office Cleaning" class="service-image">
-                                <h3 data-i18n="service_office_cleaning_heading">Kantoorschoonmaak</h3>
-                                <p data-i18n="service_office_cleaning_text">Een schone werkplek draagt bij aan een prettige sfeer en productiviteit. Wij zorgen voor representatieve kantoren, vergaderruimtes en algemene ruimtes.</p>
+                                <img src="office_cleaning_service.png" alt="Office and Commercial Cleaning" class="service-image" loading="lazy" decoding="async">
+                                <h3 data-i18n="service_office_commercial_heading">Kantoorschoonmaak</h3>
+                                <p data-i18n="service_office_commercial_intro"></p>
+                                <ul class="service-details-list">
+                                    <li data-i18n="service_office_commercial_list_item1"></li>
+                                    <li data-i18n="service_office_commercial_list_item2"></li>
+                                    <li data-i18n="service_office_commercial_list_item3"></li>
+                                    <li data-i18n="service_office_commercial_list_item4"></li>
+                                </ul>
                             </div>
+
+                            <!-- Deep Cleaning -->
                             <div class="service-card">
-                                <img src="periodic_maintenance_service.png" alt="Periodic Maintenance" class="service-image">
-                                <h3 data-i18n="service_periodic_maintenance_heading">Periodiek onderhoud</h3>
-                                <p data-i18n="service_periodic_maintenance_text">Of het nu dagelijks, wekelijks of maandelijks is: wij stemmen onze schoonmaakmomenten af op uw planning en wensen.</p>
-                            </div>
-                            <div class="service-card">
-                                <img src="deep_cleaning_service.png" alt="Deep Cleaning" class="service-image">
+                                <img src="deep_cleaning_service.png" alt="Deep Cleaning" class="service-image" loading="lazy" decoding="async">
                                 <h3 data-i18n="service_deep_cleaning_heading">Dieptereiniging</h3>
-                                <p data-i18n="service_deep_cleaning_text">Voor intensieve schoonmaak van bijvoorbeeld vloeren, sanitair of keukens zorgen wij dat alles weer grondig en hygiënisch schoon is.</p>
+                                <p data-i18n="service_deep_cleaning_intro"></p>
+                                <ul class="service-details-list">
+                                    <li data-i18n="service_deep_cleaning_list_item1"></li>
+                                    <li data-i18n="service_deep_cleaning_list_item2"></li>
+                                </ul>
                             </div>
+
+                            <!-- Periodic Maintenance -->
                             <div class="service-card">
-                                <img src="end_of_lease_cleaning_service.png" alt="End-of-lease Cleaning" class="service-image">
-                                <h3 data-i18n="service_delivery_cleaning_heading">Opleveringsschoonmaak</h3>
-                                <p data-i18n="service_delivery_cleaning_text">Na een verbouwing, renovatie of verhuizing zorgen wij voor een grondige schoonmaak van de ruimtes. Wij verwijderen bouwstof, vuil en resten, zodat het pand fris en direct gebruiksklaar is.</p>
+                                <img src="periodic_maintenance_service.png" alt="Periodic Maintenance" class="service-image" loading="lazy" decoding="async">
+                                <h3 data-i18n="service_periodic_maintenance_heading">Periodiek onderhoud</h3>
+                                <p data-i18n="service_periodic_maintenance_text"></p>
+                                <p data-i18n="service_periodic_maintenance_text_2"></p>
+                            </div>
+
+                            <!-- End-of-Lease Cleaning -->
+                            <div class="service-card">
+                                <img src="end_of_lease_cleaning_service.png" alt="End-of-Lease Cleaning" class="service-image" loading="lazy" decoding="async">
+                                <h3 data-i18n="service_end_of_lease_heading">Opleveringsschoonmaak</h3>
+                                <p data-i18n="service_end_of_lease_intro"></p>
+                                <ul class="service-details-list">
+                                    <li data-i18n="service_end_of_lease_list_item1"></li>
+                                    <li data-i18n="service_end_of_lease_list_item2"></li>
+                                    <li data-i18n="service_end_of_lease_list_item3"></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
