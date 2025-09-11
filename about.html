@@ -18,7 +18,7 @@
         <header :class="{'dark-mode': darkMode}" dir="ltr">
             <div class="container header-content">
                 <a href="index.html" class="logo">
-                    <img :src="logoSrc" alt="ZekerClean Logo">
+                    <img :src="logoSrc" alt="ZekerClean Logo" loading="lazy" decoding="async">
                     
                 </a>
                 <button @click="toggleMobileMenu()" class="menu-toggle" aria-label="Toggle navigation menu">
@@ -104,17 +104,17 @@
                         <h2 data-i18n="founders_heading">Ontmoet Ons Team</h2>
                         <div class="founders-grid">
                             <div class="founder-card">
-                                <img src="ceo1.jpeg" alt="Profile of ZekerClean founder Louden" class="founder-profile-img">
+                                <img src="ceo1.jpeg" alt="Profile of ZekerClean founder Louden" class="founder-profile-img" loading="lazy" decoding="async">
                                 <div class="founder-info">
-                                    <h3 data-i18n="founder_name_louden">Louden Wermenbo</h3>
+                                    <h3 data-i18n="founder_name_louden">Louden Wermenbol</h3>
                                     <p data-i18n="owner_title_louden">Oprichter & Directeur</p>
                                 </div>
                             </div>
                             <div class="founder-card">
-                                <img src="ceo2.jpg" alt="Profile of ZekerClean founder Oudai Zaino" class="founder-profile-img">
+                                <img src="ceo2.jpg" alt="Profile of ZekerClean founder Oudai Zaino" class="founder-profile-img" loading="lazy" decoding="async">
                                 <div class="founder-info">
                                     <h3 data-i18n="founder_name_oudai">Oudai Zaino</h3>
-                                    <p data-i18n="owner_title_oudai">Oprichter & Directeur</p>
+                                    <p data-i18n="owner_title_oudai">Projectmanager</p>
                                 </div>
                             </div>
                         </div>
