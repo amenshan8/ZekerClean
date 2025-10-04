@@ -176,7 +176,7 @@ header {
 }
 
 .logo img {
-    height: 100px; /* Adjusted height for a bigger logo */
+    height: 150px; /* Increased size based on user request */
     width: auto; /* Maintain aspect ratio */
     transition: filter 0.3s ease; /* Smooth transition for filter change */
 }
@@ -960,7 +960,7 @@ footer {
     }
     /* Reduce logo size on smaller screens to prevent overcrowding */
     .logo img {
-        height: 70px;
+        height: 120px; /* Increased from 90px */
     }
     .menu-toggle {
         display: block; /* Show hamburger on mobile */
@@ -972,10 +972,10 @@ footer {
         display: flex; /* Always flex for the slide-in effect */
         flex-direction: column;
         position: fixed; /* Fixed to cover viewport */
-        top: 80px; /* Adjust based on header height */
+        top: 150px; /* Adjusted to accommodate new logo size (15px + 120px + 15px) */
         left: 0;
         width: 100%;
-        height: calc(100vh - 80px); /* Fill remaining viewport height */
+        height: calc(100vh - 150px); /* Adjusted */
         background-color: var(--header-bg);
         box-shadow: var(--shadow);
         padding: 30px 20px;
@@ -1134,7 +1134,7 @@ footer {
     }
     /* Even smaller logo on very small screens to ensure header fits */
     .logo img {
-        height: 60px;
+        height: 100px; /* Increased from 80px */
     }
     nav ul {
         gap: 15px;
