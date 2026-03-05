@@ -56,10 +56,8 @@ document.addEventListener('alpine:init', () => {
                 "about_text_paragraph2": "We werken zorgvuldig, betrouwbaar en met oog voor detail. Als team ondersteunen we elkaar en zetten we altijd nét dat stapje extra om een constant hoog niveau van schoonmaak te garanderen.",
                 "about_text_paragraph3": "Bij ZekerClean kunt u rekenen op mensen die hun vak serieus nemen en trots zijn op het resultaat dat ze samen neerzetten.",
                 "founders_heading": "Ontmoet Ons Team",
-                "founder_name_louden": "Louden Wermenbol",
                 "founder_name_oudai": "Oudai Zaino",
-                "owner_title_louden": "Oprichter & Directeur", // Changed key
-                "owner_title_oudai": "Projectmanager", // Changed key
+                "owner_title_oudai": "Oprichter & Directeur / Projectmanager", // Oudai holds both roles
                 "values_heading": "Onze Waarden",
                 "value_quality_heading": "Kwaliteit",
                 "value_quality_text": "Wij streven altijd naar de hoogste standaard in schoonmaak en service.",
@@ -153,10 +151,8 @@ document.addEventListener('alpine:init', () => {
                 "about_text_paragraph2": "We work diligently, reliably, and with an eye for detail. As a team, we support each other and always go the extra mile to guarantee a consistently high level of cleanliness.",
                 "about_text_paragraph3": "With ZekerClean, you can count on people who take their profession seriously and are proud of the results they achieve together.",
                 "founders_heading": "Meet Our Team",
-                "founder_name_louden": "Louden Wermenbol",
                 "founder_name_oudai": "Oudai Zaino",
-                "owner_title_louden": "Founder & Director", // Changed key and value
-                "owner_title_oudai": "Project Manager", // Changed key and value
+                "owner_title_oudai": "Founder & Director / Project Manager", // Oudai holds both roles
                 "values_heading": "Our Values",
                 "value_quality_heading": "Quality",
                 "value_quality_text": "We always strive for the highest standard in cleaning and service.",
@@ -250,10 +246,8 @@ document.addEventListener('alpine:init', () => {
                 "about_text_paragraph2": "نعمل بجد واجتهاد، بموثوقية، ومع اهتمام بالتفاصيل. كفريق، ندعم بعضنا البعض ونبذل دائمًا جهدًا إضافيًا لضمان مستوى عالٍ ومستمر من النظافة.",
                 "about_text_paragraph3": "مع زيكركلين، يمكنك الاعتماد على أشخاص يأخذون مهنتهم بجدية ويفخرون بالنتائج التي يحققونها معًا.",
                 "founders_heading": "تعرف على فريقنا",
-                "founder_name_louden": "لودن فيرمينبول",
                 "founder_name_oudai": "عدي زينو",
-                "owner_title_louden": "المؤسس والمدير", // Changed key and value
-                "owner_title_oudai": "مدير المشاريع", // Changed key and value
+                "owner_title_oudai": "المؤسس والمدير / مدير المشاريع", // عدي لديه الوظيفتين
                 "values_heading": "قيمنا",
                 "value_quality_heading": "الجودة",
                 "value_quality_text": "نسعى دائمًا لأعلى معايير النظافة والخدمة.",
